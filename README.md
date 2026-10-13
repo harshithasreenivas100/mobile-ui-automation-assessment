@@ -137,7 +137,7 @@ JUnit XML reports are generated under:
 ```text
 reports/junit/
 ```
-
+**Currently executed only in Android, due to platform and device depenedncy**
 Framework logs and screenshots are stored in their respective folders when configured by the tests.
 
 ## Troubleshooting
