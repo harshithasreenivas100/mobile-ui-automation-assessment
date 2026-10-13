@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="1" errors="0" skipped="0">
+  <testsuite name="Shopping cart" timestamp="2026-10-13T15:55:34" time="0.011" tests="1" failures="1" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="Shopping cart"/>
+      <property name="capabilities" value="android.a0f5ef03"/>
+      <property name="featureFile" value="file:///C:/Users/Manoj%20Kumar/Downloads/mobile-ui-automation-feature/mobile-ui-automation/src/Cucumber/features/cart.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-android.a0f5ef03.Shopping cart" name="Verify that user is able to add the product to cart" time="0.009">
+      <failure message="Step &quot;The cart contains 1 item&quot; is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true."/>
+      <system-out><![CDATA[
+❗ Given User is logged in successfully
+❗ When User adds the first item to the cart
+❗ Then Item should be successfully added to cart
+❗ When User opens the cart
+❗ Then The cart contains 1 item
+]]></system-out>
+      <system-err><![CDATA[
+Step "The cart contains 1 item" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+	at Feature(C:\Users\Manoj Kumar\Downloads\mobile-ui-automation-feature\mobile-ui-automation\src\Cucumber\features\cart.feature):1:1
+	at Scenario(Verify that user is able to add the product to cart):4:3
+	at Step(The cart contains 1 item):9:5
+
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

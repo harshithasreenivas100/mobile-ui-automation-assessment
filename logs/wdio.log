@@ -1,0 +1,7 @@
+2026-10-13T10:25:45.168Z INFO @wdio/utils: Connecting to existing driver at http://127.0.0.1:4723/
+13T10:25:45.185Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+2026-10-13T10:25:49.885Z INFO webdriver: COMMAND deleteSession()
+2026-10-13T10:25:49.885Z INFO webdriver: [DELETE2026-10-13T10:25:51.211Z INFO @wdio/local-runner: Shutting down spawned worker
+2026-10-13T10:25:51.474Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+.209Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2026-10-13T10:25:51.474Z INFO @wdio/cli:launcher: Run onComplete hook

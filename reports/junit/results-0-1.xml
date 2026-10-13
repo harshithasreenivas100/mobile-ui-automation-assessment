@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="2" errors="0" skipped="0">
+  <testsuite name="Mobile login" timestamp="2026-10-13T15:55:42" time="0.013" tests="2" failures="2" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="Mobile login"/>
+      <property name="capabilities" value="android.a0f5ef03"/>
+      <property name="featureFile" value="file:///C:/Users/Manoj%20Kumar/Downloads/mobile-ui-automation-feature/mobile-ui-automation/src/Cucumber/features/login.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-android.a0f5ef03.Mobile login" name="Login with valid credentials" time="0.006">
+      <failure message="Step &quot;User is navigated to product page&quot; is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true."/>
+      <system-out><![CDATA[
+❗ Given App is launched successfully
+❗ When User attempts to login with username "standard_user" and password "secret_sauce"
+❗ Then User is navigated to product page
+
+]]></system-out>
+      <system-err><![CDATA[
+Step "User is navigated to product page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+	at Feature(C:\Users\Manoj Kumar\Downloads\mobile-ui-automation-feature\mobile-ui-automation\src\Cucumber\features\login.feature):1:1
+	at Scenario(Login with valid credentials):4:3
+	at Step(User is navigated to product page):7:5
+
+]]></system-err>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-android.a0f5ef03.Mobile login" name="Login with invalid credentials" time="0.005">
+      <failure message="Step &quot;Login error message says &quot;Username and password do not match any user in this service.&quot;&quot; is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true."/>
+      <system-out><![CDATA[
+❗ Given App is launched successfully
+❗ When User attempts to login with username "invalid_user" and password "wrong_password"
+❗ Then Login error message is displayed
+❗ And Login error message says "Username and password do not match any user in this service."
+]]></system-out>
+      <system-err><![CDATA[
+Step "Login error message says "Username and password do not match any user in this service."" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+	at Feature(C:\Users\Manoj Kumar\Downloads\mobile-ui-automation-feature\mobile-ui-automation\src\Cucumber\features\login.feature):1:1
+	at Scenario(Login with invalid credentials):10:3
+	at Step(Login error message says "Username and password do not match any user in this service."):14:5
+
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

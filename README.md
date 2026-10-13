@@ -155,5 +155,3 @@ AI assisted with configuration reviews, troubleshooting Cucumber step definition
 ## License
 
 For assessment and internal automation use unless otherwise specified.
-# mobile-ui-automation-assessment
-Mobile UI Automation Assessment 

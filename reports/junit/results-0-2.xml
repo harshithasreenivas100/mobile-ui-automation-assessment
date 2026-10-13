@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="1" errors="0" skipped="0">
+  <testsuite name="Mobile logout" timestamp="2026-10-13T15:55:49" time="0.01" tests="1" failures="1" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="Mobile logout"/>
+      <property name="capabilities" value="android.a0f5ef03"/>
+      <property name="featureFile" value="file:///C:/Users/Manoj%20Kumar/Downloads/mobile-ui-automation-feature/mobile-ui-automation/src/Cucumber/features/logout.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-android.a0f5ef03.Mobile logout" name="Logout from the application" time="0.006">
+      <failure message="Step &quot;User is navigated to Login page&quot; is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true."/>
+      <system-out><![CDATA[
+❗ Given User is logged in successfully
+❗ When User attempts to logout from the app
+❗ Then User is navigated to Login page
+]]></system-out>
+      <system-err><![CDATA[
+Step "User is navigated to Login page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+	at Feature(C:\Users\Manoj Kumar\Downloads\mobile-ui-automation-feature\mobile-ui-automation\src\Cucumber\features\logout.feature):1:1
+	at Scenario(Logout from the application):4:3
+	at Step(User is navigated to Login page):7:5
+
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
